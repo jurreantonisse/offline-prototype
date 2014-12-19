@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# Version 0.0.1
+
+CACHE:
+index.html
+scripts/dist/main.js
+styles/css/styles.css
+images/mobile/apple-touch-icon-120x120.png
+images/mobile/apple-touch-startup-image-640x1096.png
+
+FALLBACK:
+/ fallback.html

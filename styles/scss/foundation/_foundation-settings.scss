@@ -1,0 +1,55 @@
+@import "bower_components/foundation/scss/foundation/functions";
+
+$base-font-size: 18px;
+//$base-line-height: 133,333%;
+$rem-base: $base-font-size;
+
+$row-width: rem-calc(1200);
+// $total-columns: 12;
+$column-gutter: rem-calc(70);
+
+// Block grid
+$block-grid-default-spacing: rem-calc(0);
+$align-block-grid-to-grid: false;
+
+//$primary-color: $color-primary;
+
+$paragraph-line-height: 1.4;
+$paragraph-margin-bottom: 1em;
+
+// We use these to control header font sizes
+$h1-font-size: rem-calc(37);
+$h2-font-size: rem-calc(27);
+$h3-font-size: rem-calc(23);
+$h4-font-size: rem-calc(18);
+$h5-font-size: rem-calc(16);
+$h6-font-size: 1rem;
+
+h1, h2, h3, h4, h5, h6 {
+    //text-transform: uppercase;
+    font-weight: normal;
+}
+
+// We use these to control header size reduction on small screens
+// $h1-font-reduction: rem-calc(10) !default;
+// $h2-font-reduction: rem-calc(10) !default;
+// $h3-font-reduction: rem-calc(5) !default;
+// $h4-font-reduction: rem-calc(5) !default;
+// $h5-font-reduction: 0 !default;
+// $h6-font-reduction: 0 !default;
+
+.header-alfa {
+    font-size: $h1-font-size;
+}
+
+.header-beta {
+    font-size: $h2-font-size;
+}
+
+.header-gamma {
+    font-size: $h3-font-size;
+}
+
+// Block grid
+//$block-grid-default-spacing: rem-calc(40);
+$align-block-grid-to-grid: true;

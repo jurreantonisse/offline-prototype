@@ -1,0 +1,9 @@
+{
+  "name": "PrototypeApp",
+  "version": "0.1.0",
+  "main": "./public/styles/css/styles.css",
+  "dependencies": {
+    "foundation": "~5.5",
+    "react": "~0.12.2"
+  }
+}
